@@ -1,0 +1,46 @@
+{
+  "name": "movietheater",
+  "version": "1.0.0",
+  "description": "A service that will provide entertainment for global people",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/config/server.js",
+    "dev": "nodemon src/config/server.ts",
+    "dev:debug": "node --inspect -r ts-node/register src/config/server.ts"
+  },
+  "author": "Leonardo Viana",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/yup": "^0.29.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.0.1",
+    "mockgoose": "^8.0.4",
+    "mongoose": "^5.9.20",
+    "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3",
+    "supertest": "^4.0.2",
+    "ts-node-dev": "^1.0.0-pre.49",
+    "yup": "^0.29.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.6",
+    "@types/mongoose": "^5.7.28",
+    "@types/supertest": "^2.0.9",
+    "@types/chai": "^4.2.11",
+    "@types/express": "^4.17.6",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^14.0.14",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}
